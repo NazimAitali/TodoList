@@ -22,15 +22,17 @@ nav {
   display: flex;
   justify-content: center;
   width: 100%;
+  top: 150;
+  position: relative;
 }
 .content {
   display: flex;
   flex-direction: column;
   width: 80%;
+  position: relative;
 }
 .form {
-  font-family: inherit;
-  top: 150;
+  font-family: inherit;  
   position: relative;
   display: flex;
   align-items: center;
@@ -38,8 +40,7 @@ nav {
 }
 .newContainer {
   /***** CLASSLIST*****/
-  width: ;
-  justify-content: center;
+    justify-content: center;
   width: 72%;
   padding-left: 14%;
   margin-bottom: 1%;
@@ -48,7 +49,6 @@ nav {
   /***** CLASSLIST*****/
   background-color: rgb(224, 224, 224);
   font-family: inherit;
-  top: 150;
   width: 50%;
   position: relative;
   display: flex;
